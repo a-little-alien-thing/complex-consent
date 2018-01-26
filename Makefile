@@ -1,8 +1,10 @@
 .PHONY: run clean
+rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
-Complex\ Consent.inform/Source/story.ni: src/main.ni $(wildcard src/*.ni) $(wildcard src/**/*.ni)
+Complex\ Consent.inform/Source/story.ni: src/main.ni $(call rwildcard,src,*.ni)
 	cpp -Wno-everything src/main.ni 1>/dev/null && \
 cpp -Wno-everything src/main.ni \
+| perl -l -pe'while ($$_ =~ m@^(	)*  @) { $$_ =~ s@^(	)*  @\1\t@g }' \
 | perl -pe's@ \| @	@g' \
 | perl -pe's@^\|(.*)\|$$@\1@g' \
 | perl -ne'print unless /^\#/' > Complex\ Consent.inform/Source/story.ni \
