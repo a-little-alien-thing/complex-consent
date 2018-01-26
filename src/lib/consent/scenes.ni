@@ -1,3 +1,9 @@
+A scene has a room called the starting location.
+
+Last when a scene (called the scene which began) begins:
+	if the location is not the starting location of the scene which began:
+		move the player to the starting location of the scene which began.
+
 This scene is a scene that varies.
 
 Last when a scene (called the scene which began) begins:
@@ -5,7 +11,10 @@ Last when a scene (called the scene which began) begins:
 
 A scene has a list of consent situations called scene situations.
 
-Consent Discussion is a scene. Consent Discussion begins when play begins. Consent Discussion ends when the consent discussion state is finished.
+Consent Discussion is a scene. Consent Discussion begins when play begins.
+Consent Discussion ends when the consent discussion state is finished.
+
+The starting location of Consent Discussion is the content advice lobby.
 
 To decide whether (S - a scene) requires consent:
 	if the number of entries in the scene situations of S is greater than 0:

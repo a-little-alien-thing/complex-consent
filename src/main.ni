@@ -18,7 +18,10 @@ Table of Situations Requiring Consent
 
 Section 2 - The starting room
 
+Demonstration is a room. "There is nothing yet more to do."
+
 In-Game Test is a scene. In-Game Test begins when Consent Discussion ends.
+
 The scene situations of In-Game Test are { Sexual situations where apparent consent is in question, Cake }.
 
-Demonstration is a room. "There is nothing yet more to do."
+The starting location of In-Game Test is Demonstration.
