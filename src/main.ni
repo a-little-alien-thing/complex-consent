@@ -3,7 +3,7 @@
 #include "lib/consent.ni"
 #define horny YES
 
-Section 1 - Conventions
+Section 1 - Conventions and definitions
 
 Use American dialect and the serial comma.
 Use verbose room descriptions.

@@ -1,7 +1,8 @@
 .PHONY: run clean
 
 Complex\ Consent.inform/Source/story.ni: src/main.ni $(wildcard src/*.ni) $(wildcard src/**/*.ni)
-	cpp -Wno-everything src/main.ni \
+	cpp -Wno-everything src/main.ni 1>/dev/null && \
+cpp -Wno-everything src/main.ni \
 | perl -pe's@ \| @	@g' \
 | perl -pe's@^\|(.*)\|$$@\1@g' \
 | perl -ne'print unless /^\#/' > Complex\ Consent.inform/Source/story.ni \
