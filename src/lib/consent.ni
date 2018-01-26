@@ -1,3 +1,5 @@
+[This is a little alien thing's granular consent system. Someday it hopes to be an extension.]
+
 Consent situation is a kind of value. The consent situations are defined by the Table of Situations Requiring Consent.
 
 Section 3 - The consent system

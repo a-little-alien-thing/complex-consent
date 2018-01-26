@@ -1,6 +1,8 @@
 "Content advice and granular consent" by a little alien thing
 
 
+[This is a little alien thing's granular consent system. Someday it hopes to be an extension.]
+
 Consent situation is a kind of value. The consent situations are defined by the Table of Situations Requiring Consent.
 
 Section 3 - The consent system
@@ -290,6 +292,7 @@ Carry out giving consent for:
 Section 14 - Activating the consent system
 
 When play begins, try activating the consent system.
+
 
 
 Section 1 - Conventions

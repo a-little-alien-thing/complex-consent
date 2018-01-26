@@ -1,6 +1,7 @@
 "Content advice and granular consent" by a little alien thing
 
 #include "lib/consent.ni"
+#define horny YES
 
 Section 1 - Conventions
 
